@@ -1,0 +1,33 @@
+@mixin btn( $width:200px, $padding: 6px 60px,$radius:30px, $color: #FFFFFF, 
+$bg:var(--seconariy-color),$border:none )
+        {
+            width:$width ;
+            padding:$padding ;
+            border-radius:$radius ;
+            color: $color;
+            background:$bg ;
+            border:$border ;
+        }
+.header-card{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 18px;
+    color: var(--primariy-color);
+    &__tel{
+        color: var(--primariy-color);
+    }
+    &__btn{
+        @include btn();
+        text-align: center;
+    }
+    &__btn:hover{
+        @include btn();
+        text-align: center;
+        background: var(--uchinchi-rang);
+    }
+}
