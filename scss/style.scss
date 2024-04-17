@@ -110,7 +110,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
     
 // }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:650px) {
 
 .container{
     width: var(--container-ms);
@@ -226,7 +226,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
 .on{
     display: none;
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:650px) {
 
     .container{
         width: var(--container-ms);
@@ -308,6 +308,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
         justify-content: space-between;
          &__box{
           @include card( );
+         
           line-height: 30px;
           &__link{
             color: var(--primariy-color);
@@ -340,7 +341,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
         
     }
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:650px) {
 
     .container{
         width: var(--container-ms);
@@ -348,6 +349,9 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
         padding: 0px 10px;
     }
     .card1{
+        width: 100%;
+        height: auto;
+        
         &__hh1{
             font-size: 36px;
             color: var(--primariy-color);
@@ -356,13 +360,18 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
             
         }
         &__wrapper{
+            width: 100%;
+            height: auto;
             
             display: flex;
             flex-wrap: wrap;
-            gap: 7px;
+            gap: 10px;
              &__box{
               @include card( );
               line-height: 30px;
+              width: 320px;
+              height: auto;
+              margin: 3px auto;
               &__link{
                 color: var(--primariy-color);
                 
@@ -381,6 +390,12 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
     
                 
               }
+            }
+            &__box:hover{
+                @include card( );
+                box-shadow:0px 0px 5px 3px;
+                width: 320px;
+                height: auto;
             }
     
               
@@ -475,7 +490,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
 .rasm1,.rasm2{
     position: absolute;
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:650px) {
 
     .container{
         width: var(--container-ms);
@@ -582,7 +597,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
           }
     }
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:650px) {
 
     .container{
         width: var(--container-ms);
@@ -657,7 +672,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
     width: 250px;
     height: 170px;
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:650px) {
 
     .container{
         width: var(--container-ms);
@@ -678,7 +693,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
     &__wrapper{
         display: flex;
         justify-content: space-between;
-        gap: 10px;
+        gap: 7px;
         img{
             width: 280px;
         }
@@ -719,7 +734,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
         }
     }
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:650px) {
 
     .container{
         width: var(--container-ms);
@@ -740,7 +755,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
             &__card{
                 @include card();
                 width: 97%;
-                height: 395px;
+                height: auto;
                 padding: 0;
                 text-align: center;
                 font-size: 16px;
@@ -850,7 +865,7 @@ display: flex;
         }
     }
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:650px) {
 
     .container{
         width: var(--container-ms);
@@ -867,6 +882,7 @@ display: flex;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        margin: 5px auto;
         &__right{
             width: 100%;
             color: var(--primariy-color);
@@ -880,7 +896,7 @@ display: flex;
                 
             }
             &__btn{
-                margin-left: 90px;
+                margin:5px auto;
             }
             
         }
@@ -890,6 +906,8 @@ display: flex;
         width: 360px;
         height: 360px;
         display: flex;
+        margin: 5px auto;
+        margin-left: 25%;
         }
         .section-img1{
             width: 178px;
@@ -927,7 +945,7 @@ display: flex;
         text-align: end;
     }
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:650px) {
 
     .container{
         width: var(--container-ms);
@@ -944,15 +962,16 @@ display: flex;
     &__left{
         display: flex;
         gap: 10px;
-        flex-wrap: wrap;
+        flex-direction: column;
         align-items: center;
         color: var(--primariy-color);
         text-align: center;
         justify-content: center;
+        margin: 5px auto;
        
     }
     &__right{
-        width: 390px;
+        width: 100%;
         font-style: 16px;
         color: var(--primariy-color);
         text-align: center;

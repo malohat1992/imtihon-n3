@@ -70,7 +70,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 650px) {
   .container {
     width: var(--container-ms);
     margin: 0px auto;
@@ -180,7 +180,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 650px) {
   .container {
     width: var(--container-ms);
     margin: 0px auto;
@@ -299,11 +299,15 @@
   box-shadow: 0px 0px 5px 3px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 650px) {
   .container {
     width: var(--container-ms);
     margin: 0px auto;
     padding: 0px 10px;
+  }
+  .card1 {
+    width: 100%;
+    height: auto;
   }
   .card1__hh1 {
     font-size: 36px;
@@ -311,9 +315,11 @@
     margin: 40px auto;
   }
   .card1__wrapper {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 7px;
+    gap: 30px;
   }
   .card1__wrapper__box {
     width: 370px;
@@ -326,6 +332,9 @@
     display: center;
     flex-direction: column;
     line-height: 30px;
+    width: 320px;
+    height: auto;
+    margin: 3px auto;
   }
   .card1__wrapper__box__link {
     color: var(--primariy-color);
@@ -341,6 +350,20 @@
   }
   .card1__wrapper__box__img img {
     color: #1589F4;
+  }
+  .card1__wrapper__box:hover {
+    width: 370px;
+    height: 410px;
+    padding: 25px;
+    border-radius: 5px;
+    color: var(--primariy-color);
+    box-shadow: 0px 0px 5px -1px;
+    text-align: center;
+    display: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 3px;
+    width: 320px;
+    height: auto;
   }
 }
 .card2-menyu {
@@ -444,7 +467,7 @@
   position: absolute;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 650px) {
   .container {
     width: var(--container-ms);
     margin: 0px auto;
@@ -560,7 +583,7 @@
   box-shadow: 0px 0px 5px 2px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 650px) {
   .container {
     width: var(--container-ms);
     margin: 0px auto;
@@ -644,7 +667,7 @@
   height: 170px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 650px) {
   .container {
     width: var(--container-ms);
     margin: 0px auto;
@@ -662,7 +685,7 @@
 .card5__wrapper {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  gap: 7px;
 }
 .card5__wrapper img {
   width: 280px;
@@ -707,7 +730,7 @@
   box-shadow: 0px 0px 5px 3px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 650px) {
   .container {
     width: var(--container-ms);
     margin: 0px auto;
@@ -733,7 +756,7 @@
     display: center;
     flex-direction: column;
     width: 97%;
-    height: 395px;
+    height: auto;
     padding: 0;
     text-align: center;
     font-size: 16px;
@@ -864,7 +887,7 @@
   background: var(--primariy-color);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 650px) {
   .container {
     width: var(--container-ms);
     margin: 0px auto;
@@ -878,6 +901,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin: 5px auto;
   }
   .section__right {
     width: 100%;
@@ -892,13 +916,15 @@
     font-size: 36px;
   }
   .section__right__btn {
-    margin-left: 90px;
+    margin: 5px auto;
   }
   .section-img {
     margin-top: 50px;
     width: 360px;
     height: 360px;
     display: flex;
+    margin: 5px auto;
+    margin-left: 25%;
   }
   .section-img1 {
     width: 178px;
@@ -935,7 +961,7 @@
   text-align: end;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 650px) {
   .container {
     width: var(--container-ms);
     margin: 0px auto;
@@ -951,14 +977,15 @@
   .footer__left {
     display: flex;
     gap: 10px;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     color: var(--primariy-color);
     text-align: center;
     justify-content: center;
+    margin: 5px auto;
   }
   .footer__right {
-    width: 390px;
+    width: 100%;
     font-style: 16px;
     color: var(--primariy-color);
     text-align: center;
