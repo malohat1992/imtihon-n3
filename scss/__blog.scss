@@ -1,0 +1,17 @@
+
+
+@media only screen and (max-width:400px) {
+
+    .container{
+        width: var(--container-ms);
+        margin: 0px auto;
+        padding: 0px 10px;
+    }
+ .blog-footer{
+    margin-top: -180px;
+ }
+ iframe{
+    width: 100%;
+ }
+ }  
+    

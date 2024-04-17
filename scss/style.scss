@@ -110,7 +110,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
     
 // }
 
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:400px) {
 
 .container{
     width: var(--container-ms);
@@ -157,6 +157,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
 }
 .li1{
     display: none;
+    
     
 }
 }
@@ -225,7 +226,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
 .on{
     display: none;
 }
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:400px) {
 
     .container{
         width: var(--container-ms);
@@ -339,7 +340,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
         
     }
 }
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:400px) {
 
     .container{
         width: var(--container-ms);
@@ -474,7 +475,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
 .rasm1,.rasm2{
     position: absolute;
 }
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:400px) {
 
     .container{
         width: var(--container-ms);
@@ -581,7 +582,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
           }
     }
 }
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:400px) {
 
     .container{
         width: var(--container-ms);
@@ -656,7 +657,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
     width: 250px;
     height: 170px;
 }
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:400px) {
 
     .container{
         width: var(--container-ms);
@@ -718,7 +719,7 @@ $box-shadow:0px 0px 5px -1px,$text-align:center,$display:flex, $flex-direction:c
         }
     }
 }
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:400px) {
 
     .container{
         width: var(--container-ms);
@@ -796,7 +797,8 @@ display: flex;
 }
 .section-img2{
     width: 200px;
-    height: 360px;
+    height: 352px;
+    margin-top: 8px;
 }
 .section-ikki{
     width: 400px;
@@ -848,7 +850,7 @@ display: flex;
         }
     }
 }
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:400px) {
 
     .container{
         width: var(--container-ms);
@@ -857,7 +859,9 @@ display: flex;
     }
     .section-bir{
         display: none;
+        
     }
+    
     .section{
         width: 100%;
         display: flex;
@@ -888,12 +892,13 @@ display: flex;
         display: flex;
         }
         .section-img1{
-            width: 180px;
+            width: 178px;
             height: 360px;
         }
         .section-img2{
-            width: 180px;
-            height: 360px;
+            width: 178px;
+            height: 352px;
+            margin-top: 8px;
         }
     .section-ikki{
         left: 0%;
@@ -922,7 +927,7 @@ display: flex;
         text-align: end;
     }
 }
-@media only screen and (max-width:410px) {
+@media only screen and (max-width:400px) {
 
     .container{
         width: var(--container-ms);
@@ -958,4 +963,7 @@ display: flex;
 // ------------------------------------main end-----------------------------
 @import '__contacts.scss';
 @import '__portfoliyo.scss';
+@import '__audit.scss';
+@import '__marketing.scss';
+@import '__blog.scss';
 
